@@ -1,0 +1,49 @@
+<template>
+  <div id="app">
+    <router-view/>  
+  </div>
+</template>
+
+<script>
+import 'semantic-ui-css/semantic.min.css'
+
+export default {
+  
+  
+}
+</script>
+
+<style>
+.notes {
+    margin-top: 32px;
+}
+
+.notes .ui textarea {
+    border: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 32px 0;
+}
+
+.ui.items>.item>.content>.header {
+    display: block;
+    cursor: pointer;
+}
+
+.ui.small.message {
+    margin: 36px 0;
+}
+
+.ui.items>.item>.meta {
+    width: 88px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.extra .trash.icon {
+    cursor: pointer;
+}
+</style>
